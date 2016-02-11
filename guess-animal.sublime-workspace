@@ -1,0 +1,463 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"W",
+				"Welcome"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "views/index.jade",
+			"settings":
+			{
+				"buffer_size": 66,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown p",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"uniq",
+				"Permute Lines: Unique"
+			],
+			[
+				"file copy",
+				"File: Copy Path From Project"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 216.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/projects/node/express/guess-animal",
+		"/C/projects/node/express/guess-animal/views"
+	],
+	"file_history":
+	[
+		"/C/projects/node/express/guess-animal/views/test.html",
+		"/C/tools/cmder/vendor/init.bat",
+		"/C/tools/cmder/config/user-startup.cmd",
+		"/C/tools/cmder/vendor/sources.json",
+		"/L/.gitconfig",
+		"/C/tools/cmder/config/settings",
+		"/C/tools/cmder/config/aliases",
+		"/C/tools/cmder/bin/alias.bat",
+		"/home/misha/projects/nineveh/lib/nineveh/it-ebooks-info.rb",
+		"/home/misha/Downloads/books/_download.txt",
+		"/home/misha/projects/docpad/programming-workshop/docpad.coffee",
+		"/home/misha/projects/docpad/programming-workshop/src/render/styles/style.css.less",
+		"/home/misha/projects/docpad/programming-workshop/src/layouts/partials/hello.jade",
+		"/home/misha/projects/docpad/programming-workshop/src/layouts/partials/main-menu.jade",
+		"/home/misha/projects/docpad/programming-workshop/src/layouts/partials/sidebar.jade",
+		"/home/misha/projects/docpad/programming-workshop/src/layouts/default.html.jade",
+		"/home/misha/Downloads/soft/robomongo-0.9.0-rc4-linux-x86_64-8c830b6/bin/qt.conf",
+		"/home/misha/Downloads/soft/robomongo-0.9.0-rc4-linux-x86_64-8c830b6/DESCRIPTION",
+		"/home/misha/projects/docpad/programming-workshop/vendor/custom-variables.less",
+		"/home/misha/projects/docpad/programming-workshop/src/layouts/default-old.html.jade",
+		"/home/misha/projects/docpad/programming-workshop/out/index.html",
+		"/home/misha/projects/docpad/programming-workshop/vendor/bootstrap/less/navbar.less",
+		"/home/misha/projects/docpad/programming-workshop/src/layouts/less/main-menu.less",
+		"/home/misha/projects/docpad/programming-workshop/vendor/custom-bootstrap.less",
+		"/home/misha/projects/docpad/programming-workshop/src/render/index-old.html.jade",
+		"/home/misha/projects/docpad/programming-workshop/src/layouts/partials/head.jade",
+		"/home/misha/projects/docpad/programming-workshop/vendor/full-height-bootstrap-columns.less",
+		"/home/misha/projects/docpad/programming-workshop/src/layouts/main-menu.less",
+		"/home/misha/.config/sublime-text-3/Packages/User/PyJade.sublime-settings",
+		"/home/misha/.config/sublime-text-3/Packages/User/LESS.sublime-settings",
+		"/home/misha/projects/docpad/programming-workshop/src/layouts/partials/meta.jade",
+		"/home/misha/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/misha/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/misha/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/misha/tmp/boot.css",
+		"/home/misha/soft/gpick-gpick-0.2.5/SConstruct",
+		"/home/misha/soft/gpick-gpick-0.2.5/SConscript",
+		"/home/misha/soft/gpick-gpick-0.2.5/deb/SConscript",
+		"/home/misha/soft/gpick-gpick-0.2.5/installer/Makefile",
+		"/home/misha/projects/docpad/programming-workshop/programming-workshop.sublime-project",
+		"/home/misha/projects/docpad/programming-workshop/programming-workshop.sublime-workspace",
+		"/home/misha/projects/docpad/skeletons.md",
+		"/home/misha/.config/sublime-text-3/Packages/Better CoffeeScript/CoffeeScript.sublime-settings",
+		"/home/misha/hugo/hugo-test/content/about.md",
+		"/home/misha/hugo/hugo-test/content/post/2013-06-06-kak-udobno-organizovat-kollekciyu-code-snippets.md",
+		"/home/misha/hugo/hugo-test/content/post/first.md",
+		"/home/misha/hugo/hugo-test/config.yaml",
+		"/home/misha/hugo/hugo-test/themes/shiori/layouts/post/post.html",
+		"/home/misha/hugo/hugo-test/content/post/2012-03-04-nikogda-ne-ispolzujte-sokety-v-vashih-programmah.md",
+		"/home/misha/hugo/hugo-test/content/post/2013-05-16-shpargalka-po-c.md",
+		"/home/misha/hugo/hugo-test/content/post/data/collections/2011-06-26-kak-najti-maksimalnyj-element-massiva.md",
+		"/home/misha/hugo/hugo-test/content/post/2013-04-25-diagramma-posledovatelnosti-uml.md",
+		"/home/misha/www/hugo-test/themes/beg/layouts/_default/li.html",
+		"/home/misha/www/hugo-test/themes/herring-cove/layouts/_default/list.html",
+		"/home/misha/www/hugo-test/themes/hugo-h5bp/layouts/_default/list.html",
+		"/home/misha/www/hugo-test/themes/hugo-minimalist/layouts/partials/article-header.html",
+		"/home/misha/.config/sublime-text-3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/home/misha/.config/sublime-text-3/Packages/Markdown Preview.md",
+		"/home/misha/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/misha/.config/sublime-text-3/Packages/MarkdownEditing/Default (Linux).sublime-keymap",
+		"/home/misha/.config/sublime-text-3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/home/misha/www/hugo-test/content/post/first.md",
+		"/home/misha/.config/sublime-text-3/Packages/MarkdownEditing/README.md",
+		"/home/misha/www/hugo-test/content/about.md",
+		"/home/misha/www/dontwaste/wp-content/themes/tpl_wp_dwaste/images/postheadericon.png",
+		"/home/misha/.config/plowshare/modules.d/legacy.git/turbobit.sh",
+		"/home/misha/.config/plowshare/modules.d/legacy.git/uploaded_net.sh",
+		"/home/misha/.config/plowshare/modules.d/legacy.git/depositfiles.sh",
+		"/home/misha/www/programming-workshop/wp-config.php",
+		"/windows/Downloads/WOOD Magazine/wood-mgazine.txt",
+		"/home/misha/www/programming-workshop/wp-config.remote.php",
+		"/home/misha/www/dontwaste/wp-config.php",
+		"/opt/lampp/etc/extra/httpd-vhosts.conf",
+		"/home/misha/www/programming-workshop/.htaccess",
+		"/home/misha/www/dontwaste/.htaccess.remote",
+		"/home/misha/www/dontwaste/.htaccess",
+		"/home/misha/www/dontwaste/wp-config.local.php",
+		"/home/misha/www/dontwaste/dbcheck.php",
+		"/home/misha/www/dontwaste/rm.txt",
+		"/home/misha/www/dontwaste/log/error_log",
+		"/home/misha/www/dontwaste/log/access_log",
+		"/home/misha/www/programming-workshop/wp-config.local.php",
+		"/home/misha/www/dontwaste_old/.htaccess.local",
+		"/home/misha/www/dontwaste_old/wp-config.php",
+		"/home/misha/www/dw/.htaccess",
+		"/home/misha/www/dw/wp-config.php",
+		"/home/misha/www/dw/wp-login.php",
+		"/home/misha/www/dontwaste/wp-includes/media.php",
+		"/home/misha/www/dontwaste/.htaccess.local",
+		"/home/misha/www/dw/wp-settings.php",
+		"/home/misha/www/dw/log/access_log",
+		"/home/misha/www/dw/log/error_log",
+		"/home/misha/www/_backup/programming-workshop/zbackup_mysql_dump_55_programming-workshop_ru_05.12.2015-21:37",
+		"/home/misha/www/programming-workshop/backup/Backup_12.05.15-18.16.24_7ac35b.sql",
+		"/home/misha/www/programming-workshop/backup/Backup_08.20.11-17.08.40_bbd3ce.sql",
+		"/home/misha/www/lit-studio/configuration.php",
+		"/windows/Support/Zenon/Zenon.txt",
+		"/home/misha/scripts/open_mailto.sh",
+		"/home/misha/www/programming-workshop/wp-content/plugins/russian-date.php",
+		"/home/misha/www/programming-workshop/wp-content/plugins/update-fix.php",
+		"/windows/Downloads/tmp/wf/WindowsFormsApplication1/Form1.cs",
+		"/windows/Downloads/tmp/wf/WindowsFormsApplication1/Form1.Designer.cs",
+		"/windows/Downloads/tmp/wf/WindowsFormsApplication1/Calculator.cs"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"name",
+			".navbar-nav",
+			">.active ",
+			".navbar ",
+			".sidebar-nav ",
+			".sidebar-nav",
+			"    .sidebar-nav .",
+			".sidebar-nav ",
+			"@main-navbar-active-bg",
+			".active >",
+			" .active > a",
+			".active > ",
+			"@navbar-default-brand-hover-color",
+			"hover",
+			"../../../vendor/",
+			"color",
+			"@import \"",
+			"ico",
+			"post",
+			"cheat",
+			"+v",
+			"win",
+			"ctrl+shift+",
+			"shift+b",
+			"shift+",
+			"the_title",
+			"php",
+			"London",
+			"stringHelper",
+			"	int i;\n\n	{\n		int I;\n	}\n",
+			"I",
+			"i",
+			"I",
+			"i",
+			"http",
+			"grep_http_header_location",
+			"URL",
+			"FILE_NAME",
+			"^[[:blank:]]*Download",
+			"<title>^[[:blank:]]*Download",
+			"[[:blank:]]*Download",
+			"[[:blank:]]*Download \\(.\\+\\). Free",
+			"Download",
+			"parse",
+			"Download",
+			"/<title>/ s/^[[:blank:]]*Download \\(.\\+\\). Free.*$/\\1/p",
+			"php",
+			"includes",
+			"redirect_to",
+			"buttons-css",
+			"id='buttons-css'",
+			"Content-Type"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"php"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "views/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "guess-animal.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"w",
+				"~/www/programming-workshop/wp-config.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/www/hugo-test/hugo-test.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
