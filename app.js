@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 
 var index = require('./controllers/index');
 var users = require('./controllers/users');
+var nodes = require('./controllers/nodes');
 
 var app = express();
 
@@ -35,6 +36,7 @@ if (app.get('env') === 'development') {
 
 app.use('/', index);
 app.use('/users', users);
+app.use('/nodes', nodes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
