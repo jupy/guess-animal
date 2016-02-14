@@ -23,6 +23,16 @@ app.use(cookieParser());
 app.use(require('less-middleware')(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
+if (app.get('env') === 'development') {
+  app.use(require('connect-livereload')({
+    src: "http://localhost:35729/js/livereload.js?snipver=1",
+    port: 35729
+    // include: [/.*/],
+    // src: "http://localhost:3000/js/livereload.js?snipver=1",
+    // port: 3000
+  }));
+}
+
 app.use('/', index);
 app.use('/users', users);
 
