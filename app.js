@@ -1,4 +1,5 @@
 var express = require('express');
+var http = require('http');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -9,7 +10,11 @@ var index = require('./controllers/index');
 var users = require('./controllers/users');
 var nodes = require('./controllers/nodes');
 
+var c = require(path.join(__dirname, 'lib', 'colors'));
+
 var app = express();
+
+app.set('port', process.env.PORT || 3000);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -23,6 +28,27 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(require('less-middleware')(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
+
+function logErrors(err, req, res, next) {
+  if (typeof err === 'string')
+    err = new Error (err);
+  console.error('logErrors', err.toString());
+  next(err);
+}
+
+function clientErrorHandler(err, req, res, next) {
+  if (req.xhr) {
+    console.error('clientErrors response');
+    res.status(500).json({ error: err.toString()});
+  } else {
+    next(err);
+  }
+}
+
+function errorHandler(err, req, res, next) {
+  console.error('lastErrors response');
+  res.status(500).send(err.toString());
+}
 
 if (app.get('env') === 'development') {
   app.use(require('connect-livereload')({
@@ -70,4 +96,19 @@ app.use(function(err, req, res, next) {
 });
 
 
-module.exports = app;
+app.use(logErrors);
+app.use(clientErrorHandler);
+app.use(errorHandler);
+
+if (require.main === module) {
+  var server = http.createServer(app)
+  server.listen(app.get('port'), function(){
+    console.info(c.yellow + 'Guess-animal server listening on port ' + app.get('port') + c.reset);
+  });
+}
+else {
+  console.info(c.yellow + 'Running app as a module' + c.reset)
+  module.exports = app;
+}
+
+//module.exports = app;

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node app.js"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -20,6 +20,7 @@
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
-    "connect-livereload": "^0.5.4"
+    "connect-livereload": "^0.5.4",
+    "superagent": "^1.8.0-beta.2"
   }
 }
