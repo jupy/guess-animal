@@ -32,7 +32,9 @@ node_modules
 # Optional REPL history
 .node_repl_history
 
-
+.ctags
+.tags
+.tags_sorted_by_file
 *.sublime-project
 *.sublime-workspace
 
